@@ -4,25 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/account-settings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/ico/bell-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/img/tuyendung.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/jobs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/sign-in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/src/main/webapp/sign-up.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="18/11 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/account-settings.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/ico/bell-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/fpt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/people.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/tuyendung.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jobs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sign-in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/sign-up.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/account-settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/main/webapp/account-settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/LTW/ltw_73_TrangTinTuyenDung/.idea/src/main/webapp",
+    "last_opened_file_path": "D:/LTW/ltw_73_TrangTinTuyenDung",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -76,6 +76,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\LTW\ltw_73_TrangTinTuyenDung" />
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -83,7 +84,7 @@
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp\jquery" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.navbar.html">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.69">
     <configuration name="navbar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ltw_73_TrangTinTuyenDung/.idea/src/main/webapp/navbar.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -186,11 +187,24 @@
       <workItem from="1700275293087" duration="1941000" />
       <workItem from="1700277319414" duration="1298000" />
       <workItem from="1700278831224" duration="2540000" />
-      <workItem from="1700284470856" duration="11225000" />
+      <workItem from="1700284470856" duration="15108000" />
     </task>
+    <task id="LOCAL-00001" summary="18/11 commit">
+      <option name="closed" value="true" />
+      <created>1700295767979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700295767979</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="18/11 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="18/11 commit" />
   </component>
 </project>
