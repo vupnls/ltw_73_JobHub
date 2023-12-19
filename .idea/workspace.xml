@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="try new theme xml">
-      <change afterPath="$PROJECT_DIR$/src/main/index.html" afterDir="false" />
+    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="add index">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="van" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -62,6 +68,7 @@
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_JobHub\src\main\webapp" />
       <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_TrangTinTuyenDung\src\main\webapp" />
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp" />
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp\jquery" />
@@ -153,6 +160,7 @@
       <list>
         <item itemvalue="JavaScript Debug.navbar.html" />
         <item itemvalue="JavaScript Debug.navbar.html" />
+        <item itemvalue="JavaScript Debug.navbar.html" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702984279133</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add index">
+      <option name="closed" value="true" />
+      <created>1702984411219</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702984411219</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +228,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try new theme xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="try new theme xml" />
+    <MESSAGE value="add index" />
+    <option name="LAST_COMMIT_MESSAGE" value="add index" />
   </component>
 </project>
