@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="change index">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/account-settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/ico/bell-fill.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/img/fpt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/img/people.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/img/tuyendung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/jobs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/sign-in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/sign-up.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +37,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="van" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -48,31 +55,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Moderator/IdeaProjects/ltw_73_JobHub/src/main/webapp",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/LTW/ltw_73_TrangTinTuyenDung/.idea/src/main/webapp&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_JobHub\src\main\webapp" />
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_JobHub\src\main\webapp" />
       <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_TrangTinTuyenDung\src\main\webapp" />
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp" />
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp\jquery" />
@@ -163,8 +168,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.navbar.html" />
-        <item itemvalue="JavaScript Debug.navbar.html" />
-        <item itemvalue="JavaScript Debug.navbar.html" />
       </list>
     </recent_temporary>
   </component>
@@ -185,63 +188,9 @@
       <workItem from="1700278831224" duration="2540000" />
       <workItem from="1700284470856" duration="11225000" />
     </task>
-    <task id="LOCAL-00001" summary="try new theme xml">
-      <option name="closed" value="true" />
-      <created>1702984279133</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1702984279133</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add index">
-      <option name="closed" value="true" />
-      <created>1702984411219</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1702984411219</updated>
-    </task>
-    <task id="LOCAL-00003" summary="change index">
-      <option name="closed" value="true" />
-      <created>1702984998081</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1702984998081</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="try new theme xml" />
-    <MESSAGE value="add index" />
-    <MESSAGE value="change index" />
-    <option name="LAST_COMMIT_MESSAGE" value="change index" />
   </component>
 </project>
