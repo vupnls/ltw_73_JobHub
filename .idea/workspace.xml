@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/account-settings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/ico/bell-fill.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/img/fpt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/img/people.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/img/tuyendung.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/jobs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/sign-in.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src/main/webapp/sign-up.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="try new theme xml">
+      <change afterPath="$PROJECT_DIR$/src/main/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,9 +173,45 @@
       <workItem from="1700278831224" duration="2540000" />
       <workItem from="1700284470856" duration="11225000" />
     </task>
+    <task id="LOCAL-00001" summary="try new theme xml">
+      <option name="closed" value="true" />
+      <created>1702984279133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702984279133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="try new theme xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="try new theme xml" />
   </component>
 </project>
