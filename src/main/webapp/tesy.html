@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CLMMm</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/tesy.css" rel="stylesheet">
+</head>
+<style>
+    /* Custom CSS styles */
+    body {
+        padding: 20px;
+    }
+
+    /* Hide the content initially */
+    #cartContent {
+        display: none;
+    }
+</style>
+</head>
+<body>
+
+<!-- Bootstrap Icon for Shopping Cart -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
+    <i class="bi bi-cart"></i> Shopping Cart
+</button>
+
+<!-- Bootstrap Modal for Cart Content -->
+<div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cartModalLabel">Shopping Cart</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Cart content goes here -->
+                <div id="cartContent">
+                    <p>Product 1: $10</p>
+                    <p>Product 2: $20</p>
+                    <!-- Add more items as needed -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap JS and Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
