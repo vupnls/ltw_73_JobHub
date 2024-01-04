@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JH-Website:war" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -7,21 +12,8 @@
     <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/account-settings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/ico/bell-fill.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/fpt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/people.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/tuyendung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jobs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sign-in.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sign-up.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +61,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/LTW/ltw_73_TrangTinTuyenDung/.idea/src/main/webapp",
+    "last_opened_file_path": "C:/Users/KHANH/IdeaProjects/ltw_73_JobHub",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -90,13 +82,16 @@
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp\jquery" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.navbar.html">
-    <configuration name="navbar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ltw_73_TrangTinTuyenDung/.idea/src/main/webapp/navbar.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Tomcat 9.0.69" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.69" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="21" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_251\jre" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <deployment>
+        <artifact name="JH-Website:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/JH_Website_war" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="5a3b9a14-fd66-4d66-9cbc-723f03d52041" />
       </server-settings>
@@ -170,13 +165,11 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="JH-Website:war" />
+        </option>
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.navbar.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -202,6 +195,7 @@
       <workItem from="1700278831224" duration="2540000" />
       <workItem from="1700284470856" duration="11225000" />
       <workItem from="1702978816192" duration="1805000" />
+      <workItem from="1704357824360" duration="495000" />
     </task>
     <servers />
   </component>
