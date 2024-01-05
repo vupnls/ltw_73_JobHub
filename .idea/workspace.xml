@@ -1,15 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="JH-Website:war" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="" />
+    <list default="true" id="6d728365-47a7-4dc4-bdb3-621550720f94" name="Changes" comment="update employer">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_5_2024_9_41_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_5_2024_9_41_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_5_2024_9_41_AM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_5_2024_9_41_AM__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_5_2024_9_46_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_1_5_2024_9_46_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2024_9_42_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_5_2024_9_42_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/add-job-posting.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/add-job-posting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/tesy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/van.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/template/web/css/van.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/call-to-action.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/carousel-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/carousel-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-apartment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-building.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-condominium.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-deal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-house.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-housing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-luxury.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-neighborhood.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/icon-villa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/property-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/property-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/property-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/property-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/property-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/property-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/team-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/team-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/team-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/team-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/testimonial-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/testimonial-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/testimonial-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/testimonial-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jobs-management.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jobs-management.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/van.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/template/web/js/van.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/easing/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/easing/easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/waypoints/links.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/waypoints/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/wow/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/wow/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_accordion.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_containers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_offcanvas.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/bootstrap-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/forms/_floating-labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/forms/_form-check.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/forms/_form-control.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/forms/_form-range.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/forms/_form-select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/forms/_form-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/forms/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/forms/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/forms/_validation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/helpers/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/helpers/_colored-links.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/helpers/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/helpers/_ratio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/helpers/_stretched-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/helpers/_text-truncation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/helpers/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_color-scheme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_table-variants.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/mixins/_visually-hidden.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/utilities/_api.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scss/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/template/web/img/header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/template/web/img/header.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +159,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -26,10 +167,24 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="van" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NgoCuVan&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4bee3762-3091-4bb5-a1b8-6f67d5058bc2" />
+        <option name="url" value="https://github.com/vupnls/ltw_73_JobHub.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -49,37 +204,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/KHANH/IdeaProjects/ltw_73_JobHub",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;van&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moderator/IdeaProjects/ltw_73_JobHub&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="van" />
+    </force-push-targets>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_JobHub\src\main\webapp" />
       <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_TrangTinTuyenDung\src\main\webapp" />
-      <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp" />
-      <recent name="D:\LTW\ltw_73_TrangTinTuyenDung\.idea\src\main\webapp\jquery" />
+      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_JobHub\src\main\webapp\template\web\css" />
+      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_JobHub\src\main\webapp\template\web\js" />
+      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_JobHub\src\main\webapp\template\web" />
+      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_JobHub\src\main\webapp" />
+      <recent name="C:\Users\Moderator\IdeaProjects\ltw_73_JobHub\src\main\webapp\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.jobs-management.html">
+    <configuration name="jobs-management.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ltw_73_JobHub/src/main/webapp/jobs-management.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="navbar.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ltw_73_TrangTinTuyenDung/.idea/src/main/webapp/navbar.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -96,15 +262,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 8.5.34" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_251\jre" nameIsGenerated="true">
+    <configuration name="Tomcat 9.0.69" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.69" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="21" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="JH-Website:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/JH_Website_war" />
-          </settings>
-        </artifact>
-      </deployment>
+      <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="5a3b9a14-fd66-4d66-9cbc-723f03d52041" />
       </server-settings>
@@ -178,13 +338,11 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="JH-Website:war" />
-        </option>
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.jobs-management.html" />
         <item itemvalue="JavaScript Debug.navbar.html" />
       </list>
     </recent_temporary>
@@ -213,8 +371,31 @@
       <workItem from="1700278831224" duration="2540000" />
       <workItem from="1700284470856" duration="11225000" />
       <workItem from="1702978816192" duration="1805000" />
-      <workItem from="1704357824360" duration="495000" />
+      <workItem from="1703221984157" duration="6395000" />
+      <workItem from="1703261826358" duration="8909000" />
+      <workItem from="1703435067240" duration="11094000" />
+      <workItem from="1703577487732" duration="6514000" />
+      <workItem from="1703598868914" duration="4111000" />
+      <workItem from="1703607409092" duration="661000" />
+      <workItem from="1703667329089" duration="9730000" />
+      <workItem from="1703745429587" duration="10355000" />
+      <workItem from="1703756771375" duration="9608000" />
+      <workItem from="1703779225875" duration="1492000" />
+      <workItem from="1703780756208" duration="12366000" />
+      <workItem from="1703926716395" duration="370000" />
+      <workItem from="1704188392542" duration="2580000" />
+      <workItem from="1704191569614" duration="9165000" />
+      <workItem from="1704206596009" duration="661000" />
     </task>
+    <task id="LOCAL-00001" summary="update employer">
+      <option name="closed" value="true" />
+      <created>1704192178167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704192178167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,5 +411,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update employer" />
+    <option name="LAST_COMMIT_MESSAGE" value="update employer" />
   </component>
 </project>
