@@ -1,57 +1,217 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>org.example</groupId>
-    <artifactId>ltw_73_TrangTinTuyenDung</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>4.0.1</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>jakarta.mail</groupId>
-            <artifactId>jakarta.mail-api</artifactId>
-            <version>2.1.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.sun.mail</groupId>
-            <artifactId>javax.mail</artifactId>
-            <version>1.6.2</version>
-        </dependency>
-
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.28</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.jdbi</groupId>
-            <artifactId>jdbi3-core</artifactId>
-            <version>3.41.3</version>
-        </dependency>
-
-    </dependencies>
-    <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.jhwebsite.controller</groupId>
+  <artifactId>JH-Website</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>JH-Website Maven Webapp</name>
+  <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <jsp.api.version>2.0</jsp.api.version>
+    <servlet.api.version>4.0.1</servlet.api.version>
+    <jstl.version>1.2</jstl.version>
+    <sitemesh.version>2.4.2</sitemesh.version>
+    <mysql.version>5.1.38</mysql.version>
+    <weld.servlet.version>2.4.8.Final</weld.servlet.version>
+  </properties>
 
 
+
+  <dependencies>
+    <!--        ckfinder-->
+<!--    <dependency>-->
+<!--      <groupId>com.finder</groupId>-->
+<!--      <artifactId>ckfinder</artifactId>-->
+<!--      <version>2.6.2.1</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/CKFinder-2.6.2.1.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.finder</groupId>-->
+<!--      <artifactId>CKFinderPlugin-Watermark</artifactId>-->
+<!--      <version>2.6.2.1</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/CKFinderPlugin-Watermark-2.6.2.1.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.finder</groupId>-->
+<!--      <artifactId>CKFinderPlugin-FileEditor</artifactId>-->
+<!--      <version>2.6.2.1</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/CKFinderPlugin-FileEditor-2.6.2.1.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.finder</groupId>-->
+<!--      <artifactId>CKFinderPlugin-ImageResize</artifactId>-->
+<!--      <version>2.6.2.1</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/CKFinderPlugin-ImageResize-2.6.2.1.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.activation</groupId>-->
+<!--      <artifactId>activation</artifactId>-->
+<!--      <version>1.1</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/activation-1.1.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.commons-fileupload</groupId>-->
+<!--      <artifactId>commons-fileupload</artifactId>-->
+<!--      <version>1.2.2</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/commons-fileupload-1.2.2.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.commons-io</groupId>-->
+<!--      <artifactId>commons-io</artifactId>-->
+<!--      <version>2.0.1</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/commons-io-2.0.1.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.gson</groupId>-->
+<!--      <artifactId>gson</artifactId>-->
+<!--      <version>2.5</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/gson-2.5.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.jboss-log</groupId>-->
+<!--      <artifactId>jboss-log</artifactId>-->
+<!--      <version>3.1.4.GA</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/jboss-logging-3.1.4.GA.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.jboss-vfs</groupId>-->
+<!--      <artifactId>jboss-vfs</artifactId>-->
+<!--      <version>3.2.11.Final</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/jboss-vfs-3.2.11.Final.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.mail</groupId>-->
+<!--      <artifactId>mail</artifactId>-->
+<!--      <version>1.4.1</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/mail-1.4.1.jar</systemPath>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>com.thumbnailator</groupId>-->
+<!--      <artifactId>thumbnailator</artifactId>-->
+<!--      <version>0.4.8</version>-->
+<!--      <scope>system</scope>-->
+<!--      <systemPath>${basedir}/lib/thumbnailator-0.4.8.jar</systemPath>-->
+<!--    </dependency>-->
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>${servlet.api.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>${jsp.api.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>jstl</groupId>
+      <artifactId>jstl</artifactId>
+      <version>${jstl.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>${mysql.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>opensymphony</groupId>
+      <artifactId>sitemesh</artifactId>
+      <version>${sitemesh.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.jboss.weld.servlet/weld-servlet -->
+    <dependency>
+      <groupId>org.jboss.weld.servlet</groupId>
+      <artifactId>weld-servlet</artifactId>
+      <version>${weld.servlet.version}</version>
+    </dependency>
+
+    <!-- json -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.11.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.13</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-core-asl</artifactId>
+      <version>1.9.13</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>1.9.3</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.7</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.9</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.0</version>
+      </plugin>
+    </plugins>
+  </build>
+<!--<build>-->
+<!--    <finalName>JH-Website</finalName>-->
+<!--  </build>-->
 </project>
