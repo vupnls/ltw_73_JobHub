@@ -1,40 +1,54 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@include file="/common/taglib.jsp" %>
-<!-- Navbar Start -->
-<div class="container-fluid nav-bar bg-transparent">
-    <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-        <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
-            <div class="icon p-2 me-2">
-                <img class="img-fluid" src="img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
-            </div>
-            <h1 class="m-0 text-primary">Makaan</h1>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Property</a>
-                    <div class="dropdown-menu rounded-0 m-0">
-                        <a href="property-list.html" class="dropdown-item">Property List</a>
-                        <a href="property-type.html" class="dropdown-item">Property Type</a>
-                        <a href="property-agent.html" class="dropdown-item">Property Agent</a>
-                    </div>
+
+    <header id="header" id="home">
+        <div class="container">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
                 </div>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu rounded-0 m-0">
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Error</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="category.html">Category</a></li>
+                        <li><a href="price.html">Price</a></li>
+                        <li><a href="blog-home.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="menu-has-children"><a href="">Pages</a>
+                            <ul>
+                                <li><a href="elements.html">elements</a></li>
+                                <li><a href="search.html">search</a></li>
+                                <li><a href="single.html">single</a></li>
+                            </ul>
+                        </li>
+                        <c:if test="${empty USERMODEL}">
+                            <li><a class="ticker-btn" href="<c:url value='/dang-ky'/>">Signup</a></li>
+                            <li><a class="ticker-btn" href="<c:url value='/dang-nhap'/>">Login</a></li>
+                        </c:if>
+
+                        <c:if test="${not empty USERMODEL}">
+                            <li class="menu-has-children user-menu">
+                                <a href="#" data-toggle="dropdown" aria-haspopup="true"
+                                   aria-expanded="false" class="avatar">
+                                    <img class="user-avatar rounded-circle" src="<c:url value='${USERMODEL.avatar}'/>">
+                                </a>
+                                <span class="mr-3 text-black"> ${USERMODEL.fullname}</span>
+                                <ul>
+                                    <li><a class="nav-link text-dark" href="<c:url value='/chinh-sua-thong-tin'/>"><i
+                                            class="fa fa-user"></i> Thông tin cá nhân</a></li>
+                                    <li><a class="nav-link text-dark" href="<c:url value="/doi-mat-khau"/>"><i
+                                            class="fa fa-key" aria-hidden="true"></i>
+                                        Đổi
+                                        mật khẩu</a></li>
+                                    <li><a class="nav-link text-dark" href="<c:url value='/thoat?action=logout'/>"><i
+                                            class="fa fa-power-off"></i> Thoát</a></li>
+                                </ul>
+                            </li>
+
+                        </c:if>
+                    </ul>
+                </nav><!-- #nav-menu-container -->
             </div>
-            <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Property</a>
         </div>
-    </nav>
-</div>
-<!-- Navbar End -->
+    </header><!-- #header -->

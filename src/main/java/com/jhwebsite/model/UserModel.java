@@ -11,21 +11,22 @@ public class UserModel extends AbstractModel {
     private String phone;
     private String avatar;
     private long roleId;
-//    private RoleModel role;
+    private RoleModel role;
     private int status;
     private String keycode;
     private Timestamp keytime;
+    private UploadFileModel uploadFile;
 
     public UserModel() {
     }
 
-//    public UploadFileModel getUploadFile() {
-//        return uploadFile;
-//    }
+    public UploadFileModel getUploadFile() {
+        return uploadFile;
+    }
 
-//    public void setUploadFile(UploadFileModel uploadFile) {
-//        this.uploadFile = uploadFile;
-//    }
+    public void setUploadFile(UploadFileModel uploadFile) {
+        this.uploadFile = uploadFile;
+    }
 
     public long getRoleId() {
         return roleId;
@@ -83,13 +84,13 @@ public class UserModel extends AbstractModel {
         this.avatar = avatar;
     }
 
-//    public RoleModel getRole() {
-//        return role;
-//    }
+    public RoleModel getRole() {
+        return role;
+    }
 
-//    public void setRole(RoleModel role) {
-//        this.role = role;
-//    }
+    public void setRole(RoleModel role) {
+        this.role = role;
+    }
 
     public int getStatus() {
         return status;
