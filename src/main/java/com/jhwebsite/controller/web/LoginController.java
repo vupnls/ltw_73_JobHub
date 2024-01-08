@@ -1,6 +1,10 @@
 package com.jhwebsite.controller.web;
 
+import com.jhwebsite.constant.SystemConstant;
 import com.jhwebsite.model.UserModel;
+import com.jhwebsite.service.IUserService;
+import com.jhwebsite.utils.MessageUtil;
+import com.jhwebsite.utils.SessionUtil;
 
 import javax.inject.Inject;
 import javax.servlet.RequestDispatcher;
@@ -15,54 +19,53 @@ import java.util.ResourceBundle;
 
 @WebServlet(urlPatterns = {"/dang-nhap", "/thoat"})
 public class LoginController extends HttpServlet {
-//    @Inject
+    //    @Inject
 //    private ILayoutAttributeService layoutAttributeService;
-//    @Inject
-//    private IUserService userService;
+    @Inject
+    private IUserService userService;
 
 
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         String action = request.getParameter("action");
-        this.showMessage(request);
-        if (action == null) {
-            RequestDispatcher rd = request.getRequestDispatcher("views/web/login.jsp");
-            rd.forward(request, resp);
+        if (action != null && action.equalsIgnoreCase("logout")) {
+            SessionUtil.getInstance().removeValue(request, "USERMODEL");
+            response.sendRedirect(request.getContextPath() + "/trang-chu");
+        } else {
+            MessageUtil.showMessage(request);
+            // Neu da dang nhap thi redirect ve trang thong tin nguoi dung
+            if (SessionUtil.getInstance().getValue(request, "USERMODEL") != null) {
+                response.sendRedirect(request.getContextPath() + "/trang-chu");
+            } else {
+                RequestDispatcher rd = request.getRequestDispatcher("views/web/login.jsp");
+                rd.forward(request, response);
+            }
         }
+
     }
+
     private ResourceBundle bundle = ResourceBundle.getBundle("message");
 
-    public void showMessage(HttpServletRequest request) {
-        String message = request.getParameter("message");
-        String alert = request.getParameter("alert");
-        if (message != null && alert != null) {
-            String val = bundle.getString(message);
-            byte[] ptext = val.getBytes(StandardCharsets.ISO_8859_1);
-            String messageUTF8 = new String(ptext, StandardCharsets.UTF_8);
-            request.setAttribute("message", messageUTF8);
-            request.setAttribute("alert", alert);
-        }
-    }
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        UserModel m1 = new UserModel();
-        m1.setUsername(username);
-        m1.setPassword(password);
-        UserModel model = new UserModel();
-        model.setUsername("user");
-        model.setPassword("123");
-        if (m1 != null) {
-            if ((m1.getUsername().equals(model.getUsername())) && (m1.getPassword().equals(model.getPassword())) ){
+        UserModel userModel = userService.checkLogin(username, password, 1);
+        if (userModel != null) {
+            SessionUtil.getInstance().putValue(request, "USERMODEL", userModel);
+            if (userModel.getRole().getCode().equalsIgnoreCase(SystemConstant.ADMIN))
+                response.sendRedirect(request.getContextPath() + "/quan-tri/trang-chu");
+            else if (userModel.getRole().getCode().equalsIgnoreCase(SystemConstant.USER))
                 response.sendRedirect(request.getContextPath() + "/trang-chu");
-            }
-            // khong ton tai account
-            else {
-                response.sendRedirect(request.getContextPath()
-                        + "/dang-nhap?message=username_password_invalid&alert=danger");
-            }
         }
-
+        // khong ton tai account
+        else {
+            response.sendRedirect(request.getContextPath()
+                    + "/dang-nhap?message=username_password_invalid&alert=danger");
+        }
     }
+
 }
+
